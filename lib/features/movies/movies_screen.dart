@@ -74,9 +74,10 @@ class MoviesScreen extends StatelessWidget {
                                 FilledButton(
                                   onPressed: () {
                                     ScaffoldMessenger.of(context).showSnackBar(
-                                        const SnackBar(
-                                            content:
-                                                Text('Ticket zu Star Wars')));
+                                      const SnackBar(
+                                        content: Text('Ticket zu Star Wars'),
+                                      ),
+                                    );
                                   },
                                   child: const Text('Ticket kaufen'),
                                 ),
@@ -86,9 +87,11 @@ class MoviesScreen extends StatelessWidget {
                                 OutlinedButton(
                                   onPressed: () {
                                     Navigator.of(context).push(
-                                        MaterialPageRoute(
-                                            builder: (_) =>
-                                                const StarWarsDetailsScreen()));
+                                      MaterialPageRoute(
+                                        builder: (_) =>
+                                            const StarWarsDetailsScreen(),
+                                      ),
+                                    );
                                   },
                                   child: const Text('Vorschau'),
                                 ),
@@ -159,9 +162,11 @@ class MoviesScreen extends StatelessWidget {
                                 FilledButton(
                                   onPressed: () {
                                     ScaffoldMessenger.of(context).showSnackBar(
-                                        const SnackBar(
-                                            content: Text(
-                                                'Ticket zu Herr der Ringe')));
+                                      const SnackBar(
+                                        content:
+                                            Text('Ticket zu Herr der Ringe'),
+                                      ),
+                                    );
                                   },
                                   child: const Text('Ticket kaufen'),
                                 ),
@@ -170,9 +175,12 @@ class MoviesScreen extends StatelessWidget {
                                 ),
                                 OutlinedButton(
                                   onPressed: () {
-                                    Navigator.of(context).push(MaterialPageRoute(
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
                                         builder: (_) =>
-                                            const HerrDerRingeDetailsScreen()));
+                                            const HerrDerRingeDetailsScreen(),
+                                      ),
+                                    );
                                   },
                                   child: const Text('Vorschau'),
                                 ),
@@ -243,9 +251,10 @@ class MoviesScreen extends StatelessWidget {
                                 FilledButton(
                                   onPressed: () {
                                     ScaffoldMessenger.of(context).showSnackBar(
-                                        const SnackBar(
-                                            content: Text(
-                                                'Ticket zu Harry Potter')));
+                                      const SnackBar(
+                                        content: Text('Ticket zu Harry Potter'),
+                                      ),
+                                    );
                                   },
                                   child: const Text('Ticket kaufen'),
                                 ),
@@ -254,9 +263,12 @@ class MoviesScreen extends StatelessWidget {
                                 ),
                                 OutlinedButton(
                                   onPressed: () {
-                                    Navigator.of(context).push(MaterialPageRoute(
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
                                         builder: (_) =>
-                                            const HarryPotterDetailsScreen()));
+                                            const HarryPotterDetailsScreen(),
+                                      ),
+                                    );
                                   },
                                   child: const Text('Vorschau'),
                                 ),
@@ -327,9 +339,10 @@ class MoviesScreen extends StatelessWidget {
                                 FilledButton(
                                   onPressed: () {
                                     ScaffoldMessenger.of(context).showSnackBar(
-                                        const SnackBar(
-                                            content: Text(
-                                                'Ticket zu Hunger Games')));
+                                      const SnackBar(
+                                        content: Text('Ticket zu Hunger Games'),
+                                      ),
+                                    );
                                   },
                                   child: const Text('Ticket kaufen'),
                                 ),
@@ -338,9 +351,12 @@ class MoviesScreen extends StatelessWidget {
                                 ),
                                 OutlinedButton(
                                   onPressed: () {
-                                    Navigator.of(context).push(MaterialPageRoute(
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
                                         builder: (_) =>
-                                            const HungerGamesDetailsScreen()));
+                                            const HungerGamesDetailsScreen(),
+                                      ),
+                                    );
                                   },
                                   child: const Text('Vorschau'),
                                 ),
@@ -415,9 +431,11 @@ class MoviesScreen extends StatelessWidget {
                                   FilledButton(
                                     onPressed: () {
                                       ScaffoldMessenger.of(context)
-                                          .showSnackBar(const SnackBar(
-                                              content:
-                                                  Text('Ticket zu Star Wars')));
+                                          .showSnackBar(
+                                        const SnackBar(
+                                          content: Text('Ticket zu Star Wars'),
+                                        ),
+                                      );
                                     },
                                     child: const Text('Ticket kaufen'),
                                   ),
@@ -427,9 +445,11 @@ class MoviesScreen extends StatelessWidget {
                                   OutlinedButton(
                                     onPressed: () {
                                       Navigator.of(context).push(
-                                          MaterialPageRoute(
-                                              builder: (_) =>
-                                                  const StarWarsDetailsScreen()));
+                                        MaterialPageRoute(
+                                          builder: (_) =>
+                                              const StarWarsDetailsScreen(),
+                                        ),
+                                      );
                                     },
                                     child: const Text('Vorschau'),
                                   ),
@@ -500,9 +520,12 @@ class MoviesScreen extends StatelessWidget {
                                   FilledButton(
                                     onPressed: () {
                                       ScaffoldMessenger.of(context)
-                                          .showSnackBar(const SnackBar(
-                                              content: Text(
-                                                  'Ticket zu Herr der Ringe')));
+                                          .showSnackBar(
+                                        const SnackBar(
+                                          content:
+                                              Text('Ticket zu Herr der Ringe'),
+                                        ),
+                                      );
                                     },
                                     child: const Text('Ticket kaufen'),
                                   ),
@@ -511,9 +534,12 @@ class MoviesScreen extends StatelessWidget {
                                   ),
                                   OutlinedButton(
                                     onPressed: () {
-                                      Navigator.of(context).push(MaterialPageRoute(
+                                      Navigator.of(context).push(
+                                        MaterialPageRoute(
                                           builder: (_) =>
-                                              const HerrDerRingeDetailsScreen()));
+                                              const HerrDerRingeDetailsScreen(),
+                                        ),
+                                      );
                                     },
                                     child: const Text('Vorschau'),
                                   ),
@@ -581,9 +607,12 @@ class MoviesScreen extends StatelessWidget {
                                   FilledButton(
                                     onPressed: () {
                                       ScaffoldMessenger.of(context)
-                                          .showSnackBar(const SnackBar(
-                                              content: Text(
-                                                  'Ticket zu Harry Potter')));
+                                          .showSnackBar(
+                                        const SnackBar(
+                                          content:
+                                              Text('Ticket zu Harry Potter'),
+                                        ),
+                                      );
                                     },
                                     child: const Text('Ticket kaufen'),
                                   ),
@@ -592,9 +621,12 @@ class MoviesScreen extends StatelessWidget {
                                   ),
                                   OutlinedButton(
                                     onPressed: () {
-                                      Navigator.of(context).push(MaterialPageRoute(
+                                      Navigator.of(context).push(
+                                        MaterialPageRoute(
                                           builder: (_) =>
-                                              const HarryPotterDetailsScreen()));
+                                              const HarryPotterDetailsScreen(),
+                                        ),
+                                      );
                                     },
                                     child: const Text('Vorschau'),
                                   ),
@@ -665,9 +697,12 @@ class MoviesScreen extends StatelessWidget {
                                   FilledButton(
                                     onPressed: () {
                                       ScaffoldMessenger.of(context)
-                                          .showSnackBar(const SnackBar(
-                                              content: Text(
-                                                  'Ticket zu Hunger Games')));
+                                          .showSnackBar(
+                                        const SnackBar(
+                                          content:
+                                              Text('Ticket zu Hunger Games'),
+                                        ),
+                                      );
                                     },
                                     child: const Text('Ticket kaufen'),
                                   ),
@@ -676,9 +711,12 @@ class MoviesScreen extends StatelessWidget {
                                   ),
                                   OutlinedButton(
                                     onPressed: () {
-                                      Navigator.of(context).push(MaterialPageRoute(
+                                      Navigator.of(context).push(
+                                        MaterialPageRoute(
                                           builder: (_) =>
-                                              const HungerGamesDetailsScreen()));
+                                              const HungerGamesDetailsScreen(),
+                                        ),
+                                      );
                                     },
                                     child: const Text('Vorschau'),
                                   ),
@@ -757,9 +795,11 @@ class StarWarsDetailsScreen extends StatelessWidget {
                       FilledButton(
                         onPressed: () {
                           ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                  behavior: SnackBarBehavior.floating,
-                                  content: Text('Ticket zu Star Wars')));
+                            const SnackBar(
+                              behavior: SnackBarBehavior.floating,
+                              content: Text('Ticket zu Star Wars'),
+                            ),
+                          );
                         },
                         child: const Text('Ticket kaufen'),
                       ),
@@ -832,9 +872,11 @@ class HerrDerRingeDetailsScreen extends StatelessWidget {
                       FilledButton(
                         onPressed: () {
                           ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                  behavior: SnackBarBehavior.floating,
-                                  content: Text('Ticket zu Herr der Ringe')));
+                            const SnackBar(
+                              behavior: SnackBarBehavior.floating,
+                              content: Text('Ticket zu Herr der Ringe'),
+                            ),
+                          );
                         },
                         child: const Text('Ticket kaufen'),
                       ),
@@ -907,9 +949,11 @@ class HarryPotterDetailsScreen extends StatelessWidget {
                       FilledButton(
                         onPressed: () {
                           ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                  behavior: SnackBarBehavior.floating,
-                                  content: Text('Ticket zu Harry Potter')));
+                            const SnackBar(
+                              behavior: SnackBarBehavior.floating,
+                              content: Text('Ticket zu Harry Potter'),
+                            ),
+                          );
                         },
                         child: const Text('Ticket kaufen'),
                       ),
@@ -982,9 +1026,11 @@ class HungerGamesDetailsScreen extends StatelessWidget {
                       FilledButton(
                         onPressed: () {
                           ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                  behavior: SnackBarBehavior.floating,
-                                  content: Text('Ticket zu Hunger Games')));
+                            const SnackBar(
+                              behavior: SnackBarBehavior.floating,
+                              content: Text('Ticket zu Hunger Games'),
+                            ),
+                          );
                         },
                         child: const Text('Ticket kaufen'),
                       ),
